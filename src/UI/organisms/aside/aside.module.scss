@@ -1,0 +1,51 @@
+.Aside{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+
+    h1{
+        padding: 1rem;
+        color: #125dc0;
+    }
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+
+    
+    Button{
+        background:none;
+        border: none;
+        height: 2.5rem;
+        display: flex;
+        gap: 1rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-family: var(--font-principal);
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+}
+
+.buttons{
+    background:none;
+    border: none;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 560;
+
+    &:hover{
+        cursor: pointer;
+    }
+}

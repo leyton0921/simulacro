@@ -1,0 +1,54 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    height: 20rem;
+}
+
+.titleContainer{
+    h2{
+        color: black;
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+}
+
+.textContainer{
+    width: 50%;
+    text-align: center;
+
+    p{
+        font-size: 1.3rem;
+    }
+}
+
+.linksContainer{
+    display: flex;
+    gap: 1rem;
+}
+
+.links{
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.linkLogin{
+    background-color: black;
+    color: white;
+
+    &:hover{
+        background-color: #000000b6;
+    }
+}
+
+.linkRegister{
+    color: black;
+
+    &:hover{
+        background-color: #f6f3f3b6;
+    }
+}

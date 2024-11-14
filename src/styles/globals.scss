@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #cfe4fb, #ffffff);
+
+}
+
+.main {
+    min-height: 100vh;
+    background-color: #f3f2f2;
+    box-sizing: border-box;
+
+}
+
+.container-form {
+    display: flex;
+    align-items: center;
+}
+
+.link-home {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    text-decoration: none;
+    color: #125dc0;
+}
+
+.container-projects {
+    margin-left: 20%;
+    margin-top: 4%;
+    padding: 1rem;
+    box-sizing: border-box;
+}

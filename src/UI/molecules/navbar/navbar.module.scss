@@ -1,0 +1,39 @@
+
+
+
+.nav{
+    padding: 1rem;
+    width: 80%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+
+
+    .items{
+        display: flex;
+        gap: 1rem;
+
+        .title{
+            font-size: 1.7rem;
+            font-weight: 900;
+        }
+
+        .infoUser{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            .image{
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 50%;
+            }
+        }
+
+    }
+}

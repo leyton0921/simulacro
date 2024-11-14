@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.titleContainer{
+    color: #125dc0;
+h1{
+    font-size: 1.6rem;
+}
+}
+
+.linksContainer{
+    display: flex;
+    gap: 1rem;
+}
+.links{
+    text-decoration: none;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+
+
+}
+
+.linkLogin{
+    color: black;
+
+    &:hover{
+        background-color: #f6f3f3b6;
+    }
+}
+
+.linkRegister{
+    background-color: black;
+    color: white;
+
+    &:hover{
+        background-color: #000000b6;
+    }
+}
